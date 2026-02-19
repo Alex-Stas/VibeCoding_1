@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Документ</title>
+</head>
+<body>
+  <h1>Справка</h1>
+  <div class="meta">Сгенерировано: {{generated_at}}</div>
+
+  <p><b>ФИО:</b> {{full_name}}</p>
+  <p><b>Должность:</b> {{position}}</p>
+  <p><b>Отдел:</b> {{department}}</p>
+
+  <h2>Детали</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Параметр</th>
+        <th>Значение</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="left">Email</td>
+        <td class="left">{{email}}</td>
+      </tr>
+      <tr>
+        <td class="left">Телефон</td>
+        <td class="left">{{phone}}</td>
+      </tr>
+      <tr>
+        <td class="left">Комментарий</td>
+        <td class="left">{{comment}}</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

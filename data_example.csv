@@ -1,0 +1,3 @@
+full_name,position,department,email,phone,comment,filename
+Иванов Иван Иванович,Инженер,ИТ,ivanov@example.com,+7 999 123-45-67,"Очень длинная строка для проверки переноса: https://example.com/very/long/path?with=params&and=more",ivanov_doc
+Петров Пётр Петрович,Менеджер,Продажи,petrov@example.com,+7 999 222-33-44,"Комментарий с кириллицей и знаками препинания.",petrov_doc
